@@ -59,7 +59,7 @@ end
 
 end
 
-% HELPER FUNCTION to ensure that inputs are of the appropriate type
+% Helper function to ensure that inputs are of the appropriate type
 function checkinputs(data, nFactors, nTails)
 if ~isnumeric(data)
     error('data must be numeric.')
