@@ -33,7 +33,7 @@ elseif nFactors == 2
     %Create subject matrix (vector with 1 cell per beta value)
     s = [];
     for i = 1:b
-        s = [s;[1:a]']; %#ok<NBRAK,AGROW>
+        s = [s; [1:a]']; %#ok<NBRAK,AGROW>
     end
 
     %Create factor matrices (vectors with 1 cell per beta value)
