@@ -19,5 +19,5 @@ nObservations = size(freq, 1);
 % Generate the expected distribution
 expected = repmat(counts, 1:nObservations);
 
-% Comput the chi-squared goodness-of-fit test
+% Compute the chi-squared goodness-of-fit test
 [h, p, stats] = chi2gof(x, 'expected', expected);
