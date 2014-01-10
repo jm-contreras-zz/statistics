@@ -22,8 +22,8 @@ if strcmp(type, 'paired')
     Tt = Tp;
     Cd = Tp;
     Df = Tp;
-    for i = 1:nConds
-        for j = i + 1:nConds
+    for i = 1:(nConds - 1)
+        for j = (i + 1):nConds
             [~, P, ~, T] = ttest(x(:, i), x(:, j));
             Tp(i, j - 1) = P;
             Tt(i, j - 1) = T.tstat;
@@ -39,8 +39,8 @@ elseif strcmp(type, 'independent')
     Tt = Tp;
     Cd = Tp;
     Df = Tp;
-    for i = 1:nConds
-        for j = i + 1:nConds
+    for i = 1:(nConds - 1)
+        for j = (i + 1):nConds
             [~, P, ~, T] = ttest2(x(conds == i), x(conds == j));
             Tp(i, j - 1) = P;
             Tt(i, j - 1) = T.tstat;
