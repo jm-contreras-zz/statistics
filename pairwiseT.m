@@ -44,7 +44,7 @@ elseif strcmp(type, 'independent')
             [~, P, ~, T] = ttest2(x(conds == i), x(conds == j));
             Tp(i, j - 1) = P;
             Tt(i, j - 1) = T.tstat;
-            Cd(i, j - 1 ) = 2 * T.tstat / sqrt(T.df);
+            Cd(i, j - 1) = 2 * T.tstat / sqrt(T.df);
             Df(i, j - 1) = T.df;
         end
     end
