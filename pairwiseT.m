@@ -42,10 +42,10 @@ elseif strcmp(type, 'independent')
     for i = 1:nConds
         for j = i + 1:nConds
             [~, P, ~, T] = ttest2(x(conds == i), x(conds == j));
-            Tp(i,j-1) = P;
-            Tt(i,j-1) = T.tstat;
-            Cd(i,j-1) = 2 * T.tstat / sqrt(T.df);
-            Df(i,j-1) = T.df;
+            Tp(i, j - 1) = P;
+            Tt(i, j - 1) = T.tstat;
+            Cd(i, j - 1 ) = 2 * T.tstat / sqrt(T.df);
+            Df(i, j - 1) = T.df;
         end
     end
     
