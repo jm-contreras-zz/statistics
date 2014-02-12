@@ -1,6 +1,6 @@
-function ci = wsci(data, nFactors, nTails)
+function ci = ws_conf_int(data, nFactors, nTails)
 
-% CI = WSCI(DATA, NFACTORS, NTAILS) computes a within-subjects confidence
+% CI = WS_CONF_INT(DATA, NFACTORS, NTAILS) computes a within-subjects confidence
 % interval (CI) on the basis of the interaction mean square error, sample
 % size, and the critical value from a t-distribution. Requires an AxB data
 % matrix (DATA), where A = sample size and B = product of number of factors
