@@ -14,6 +14,6 @@ statistics
 
 - ***sem.m*** computes the [standard error of the mean](http://en.wikipedia.org/wiki/Standard_error).
 
-- ***wsci.m*** calculates within-subjects confidence intervals as described by [Masson and Loftus (2003)](http://www.ncbi.nlm.nih.gov/pubmed/19485604).
+- ***ws_conf_int.m*** calculates within-subjects confidence intervals as described by [Masson and Loftus (2003)](http://www.ncbi.nlm.nih.gov/pubmed/19485604).
 
-- ***wscohensd.m*** computes [Cohen's d](http://en.wikipedia.org/wiki/Effect_size#Cohen.27s_d) for within-subjects data.
+- ***ws_cohensD.m*** computes [Cohen's d](http://en.wikipedia.org/wiki/Effect_size#Cohen.27s_d) for within-subjects data.
