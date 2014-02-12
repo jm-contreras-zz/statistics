@@ -1,10 +1,10 @@
 function ci = ws_conf_int(data, nFactors, nTails)
 
-% CI = WS_CONF_INT(DATA, NFACTORS, NTAILS) computes a within-subjects confidence
-% interval (CI) on the basis of the interaction mean square error, sample
-% size, and the critical value from a t-distribution. Requires an AxB data
-% matrix (DATA), where A = sample size and B = product of number of factors
-% (NFACTORS) and levels. A two-tailed test is not assumed.
+% CI = WS_CONF_INT(DATA, NFACTORS, NTAILS) computes a within-subjects
+% confidence interval CI on the basis of the interaction mean square error,
+% sample size, and the critical value from a t-distribution. Requires an AxB
+% data matrix DATA, where A = sample size and B = product of number of
+% factors NFACTORS and levels. A two-tailed test is not assumed.
 %
 % Masson, M. E. J., & Loftus, G. R. (2003). Using confidence intervals for
 % graphically based data interpretation. Canadian Journal of Experimental
@@ -14,8 +14,8 @@ function ci = ws_conf_int(data, nFactors, nTails)
 % which compute repeated measures ANOVAs for data with 1- and 2-factors,
 % respectively, and their wrapper anova_rm_multi.m (Juan Manuel Contreras).
 %
-% Written by Juan Manuel Contreras (juan.manuel.contreras.87@gmail.com)
-% on December 10, 2011.
+% Written by Juan Manuel Contreras (juan.manuel.contreras.87@gmail.com) on
+% December 10, 2011.
 
 % Ensure that inputs are of the appropriate type
 checkinputs(data, nFactors, nTails)
