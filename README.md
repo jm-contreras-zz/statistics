@@ -4,7 +4,7 @@ statistics
 
 
 
-- ***anova_rm_multi.m*** performs a one- or two-way [analysis of variance (ANOVA)](http://en.wikipedia.org/wiki/Analysis_of_variance) as a wrapper to two scripts that are not mine, *anova_rm.m* and *rm_anova2.m*.
+- ***anova_rm_multi.m*** performs a one- or two-way [analysis of variance (ANOVA)](http://en.wikipedia.org/wiki/Analysis_of_variance) as a wrapper to two scripts that are not mine, *anova_rm.m* and *rm_anova2.m*, but are included for convenience.
 
 - ***chi2gof_ed.m*** generates a variable's expected distribution and performs a [chi-square goodness-of-fit test](http://en.wikipedia.org/wiki/Chi-squared_test) as a wrapper to a native MATLAB function.
 
