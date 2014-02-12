@@ -17,3 +17,5 @@ statistics
 - ***ws_conf_int.m*** calculates within-subjects confidence intervals as described by [Masson and Loftus (2003)](http://www.ncbi.nlm.nih.gov/pubmed/19485604).
 
 - ***ws_cohensD.m*** computes [Cohen's d](http://en.wikipedia.org/wiki/Effect_size#Cohen.27s_d) for within-subjects data.
+
+- ***ws_lin_con.m*** uses contrast weights to test a within-subjects [linear contrast](http://en.wikipedia.org/wiki/Contrast_%28statistics%29) as described by [Keppel and Wickens (2004)](http://books.google.com/books/about/Design_and_Analysis.html?id=SOckAQAAIAAJ).
