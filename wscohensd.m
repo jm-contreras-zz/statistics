@@ -1,6 +1,6 @@
-function d = wscohensd(x, y)
+function d = ws_cohensD(x, y)
 
-% D = WSCOHENSD(X, Y) calculates within-subjects Cohen's d with the formula
+% D = WS_COHENSD(X, Y) calculates within-subjects Cohen's d with the formula
 % d = t/sqrt(df).
 %
 % Written by Juan Manuel Contreras (juan.manuel.contreras.87@gmail.com) on
